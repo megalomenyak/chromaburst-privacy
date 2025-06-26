@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChromaBurst - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 2rem;
+        }
+        
+        .language-switcher {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .lang-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            margin: 0 0.5rem;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+        
+        .lang-btn:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+        }
+        
+        .lang-btn.active {
+            background: #764ba2;
+        }
+        
+        .policy-content {
+            display: none;
+        }
+        
+        .policy-content.active {
+            display: block;
+        }
+        
+        h2 {
+            color: #4a5568;
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+        
+        ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        strong {
+            color: #2d3748;
+        }
+        
+        .last-updated {
+            background: #f7fafc;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+        
+        .contact-info {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+            text-align: center;
+        }
+        
+        .contact-info a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .game-logo {
+            width: 60px;
+            height: 60px;
+            background: white;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 1rem;
+                border-radius: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="game-logo">🎮</div>
+            <h1>ChromaBurst</h1>
+            <p>Privacy Policy & Terms of Service</p>
+        </div>
+        
+        <div class="content">
+            <div class="language-switcher">
+                <button class="lang-btn active" onclick="showContent('en')">English</button>
+                <button class="lang-btn" onclick="showContent('tr')">Türkçe</button>
+            </div>
+            
+            <!-- English Content -->
+            <div id="en-content" class="policy-content active">
+                <div class="last-updated">
+                    <strong>Last updated:</strong> <span id="en-date"></span>
+                </div>
+                
+                <h2>Privacy Policy</h2>
+                <p>We value your privacy while using the ChromaBurst application. This privacy policy explains what information is collected, used, and shared when you use our application.</p>
+                
+                <h2>Information We Collect</h2>
+                <p><strong>Personal Information:</strong> Our application only collects information such as game username and game progress. We do not collect personal information such as name, email address, or phone number.</p>
+                
+                <p><strong>Device Information:</strong> Our application may collect device information (model, operating system, app version, etc.) to provide a better user experience and detect errors.</p>
+                
+                <h2>Advertising</h2>
+                <p>Our application displays advertisements through Google AdMob and other advertising providers. These ads may be personalized and based on identifiers such as device ID. To make ads more relevant, advertising providers may place cookies on your device or use similar technologies.</p>
+                
+                <h2>Firebase Usage</h2>
+                <p>We use Firebase services in the application:</p>
+                <ul>
+                    <li><strong>Firebase Analytics:</strong> Collects information about app usage and performance</li>
+                    <li><strong>Firebase Crashlytics:</strong> Detects app crashes and errors</li>
+                    <li><strong>Firebase Firestore:</strong> Stores user data and high scores</li>
+                </ul>
+                
+                <h2>Data Security</h2>
+                <p>We take appropriate technical and organizational measures to protect user data. However, please note that no internet-based method is completely secure.</p>
+                
+                <h2>Children's Privacy</h2>
+                <p>Our services are not directed to children under 13. We do not knowingly collect personal information from children under 13.</p>
+                
+                <h2>Terms of Service</h2>
+                <p>By accessing or using the application, you agree to be bound by these terms.</p>
+                
+                <h2>Use of the Application</h2>
+                <p>You may use the ChromaBurst application for personal and non-commercial purposes only. You may not use the application in a way that violates any laws or harms others.</p>
+                
+                <h2>Account and Security</h2>
+                <p>You are responsible for safeguarding your username and account security in the application. You are responsible for all activities that occur under your account.</p>
+                
+                <h2>Intellectual Property</h2>
+                <p>The application and its content (text, graphics, logos, audio, video, application design, etc.) are owned by us and are protected by copyright, trademark, and other intellectual property laws.</p>
+                
+                <h2>Purchases and Advertisements</h2>
+                <p>The application may include in-app purchase features and advertisements. All purchases are final and non-refundable. Payment transactions are processed through the Google Play payment system.</p>
+                
+                <h2>Changes</h2>
+                <p>We may update this privacy policy and terms of service from time to time. When changes are made, we will publish a new version of the updated terms here.</p>
+                
+                <div class="contact-info">
+                    <h2 style="margin-top: 0; border: none; color: white;">Contact</h2>
+                    <p>If you have any questions about this privacy policy or terms of service, please contact us at:</p>
+                    <p><a href="mailto:Chromaburstgame@gmail.com">Chromaburstgame@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <!-- Turkish Content -->
+            <div id="tr-content" class="policy-content">
+                <div class="last-updated">
+                    <strong>Son güncelleme:</strong> <span id="tr-date"></span>
+                </div>
+                
+                <h2>Gizlilik Politikası</h2>
+                <p>ChromaBurst uygulamasını kullanırken gizliliğinize değer veriyoruz. Bu gizlilik politikası, uygulamayı kullanırken toplanan, kullanılan ve paylaşılan bilgileri açıklamaktadır.</p>
+                
+                <h2>Toplanan Bilgiler</h2>
+                <p><strong>Kişisel Bilgiler:</strong> Uygulamamız, yalnızca oyun kullanıcı adı ve oyun ilerlemesi gibi bilgileri toplar. Ad, soyad, e-posta adresi, telefon numarası gibi kişisel bilgileri toplamıyoruz.</p>
+                
+                <p><strong>Cihaz Bilgileri:</strong> Uygulamamız, daha iyi bir kullanıcı deneyimi sunmak ve hataları tespit etmek için cihaz bilgilerini (model, işletim sistemi, uygulama sürümü, vb.) toplayabilir.</p>
+                
+                <h2>Reklam Kullanımı</h2>
+                <p>Uygulamamız, Google AdMob ve diğer reklam sağlayıcıları aracılığıyla reklamlar gösterir. Bu reklamlar kişiselleştirilmiş olabilir ve cihaz kimliği gibi tanımlayıcılara dayanabilir. Reklamların daha alakalı olmasını sağlamak için, reklam sağlayıcıları cihazınıza çerezler yerleştirebilir veya benzer teknolojiler kullanabilir.</p>
+                
+                <h2>Firebase Kullanımı</h2>
+                <p>Uygulamada Firebase hizmetlerini kullanıyoruz:</p>
+                <ul>
+                    <li><strong>Firebase Analytics:</strong> Uygulama kullanımı ve performansı hakkında bilgi toplar</li>
+                    <li><strong>Firebase Crashlytics:</strong> Uygulama çökmelerini ve hatalarını tespit eder</li>
+                    <li><strong>Firebase Firestore:</strong> Kullanıcı verilerini ve yüksek skorları saklar</li>
+                </ul>
+                
+                <h2>Veri Güvenliği</h2>
+                <p>Kullanıcı verilerini korumak için uygun teknik ve organizasyonel önlemleri alıyoruz. Ancak, hiçbir internet tabanlı yöntemin tamamen güvenli olmadığını lütfen unutmayın.</p>
+                
+                <h2>Çocukların Gizliliği</h2>
+                <p>Hizmetlerimiz 13 yaş altı çocuklara yönelik değildir. 13 yaş altındaki çocuklardan bilerek kişisel bilgi toplamıyoruz.</p>
+                
+                <h2>Kullanım Şartları</h2>
+                <p>Uygulamaya erişerek veya uygulamayı kullanarak, bu şartlara bağlı kalmayı kabul etmiş olursunuz.</p>
+                
+                <h2>Uygulamanın Kullanımı</h2>
+                <p>ChromaBurst uygulamasını yalnızca kişisel ve ticari olmayan amaçlarla kullanabilirsiniz. Uygulamayı yasaları ihlal edecek veya başkalarına zarar verecek şekilde kullanamazsınız.</p>
+                
+                <h2>Hesap ve Güvenlik</h2>
+                <p>Uygulamadaki kullanıcı adınızı ve hesabınızın güvenliğini korumak sizin sorumluluğunuzdur. Hesabınızla ilgili tüm etkinliklerden siz sorumlusunuz.</p>
+                
+                <h2>Fikri Mülkiyet</h2>
+                <p>Uygulama ve içeriği (metin, grafikler, logolar, ses, video, uygulamanın tasarımı vb.) bizim mülkiyetimizdedir ve telif hakkı, ticari marka ve diğer fikri mülkiyet yasaları tarafından korunmaktadır.</p>
+                
+                <h2>Satın Almalar ve Reklamlar</h2>
+                <p>Uygulama içi satın alma özelliği ve reklamlar içerebilir. Tüm satın almalar nihai ve iade edilemezdir. Ödeme işlemleri Google Play ödeme sistemi aracılığıyla gerçekleştirilir.</p>
+                
+                <h2>Değişiklikler</h2>
+                <p>Bu gizlilik politikasını ve kullanım şartlarını zaman zaman güncelleyebiliriz. Değişiklikler yapıldığında, güncellenen şartların yeni bir sürümünü burada yayınlayacağız.</p>
+                
+                <div class="contact-info">
+                    <h2 style="margin-top: 0; border: none; color: white;">İletişim</h2>
+                    <p>Bu gizlilik politikası veya kullanım şartları hakkında sorularınız varsa, lütfen bize ulaşın:</p>
+                    <p><a href="mailto:Chromaburstgame@gmail.com">Chromaburstgame@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Set current date
+        const currentDate = new Date();
+        const enDate = currentDate.toLocaleDateString('en-US', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+        const trDate = currentDate.toLocaleDateString('tr-TR', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+        
+        document.getElementById('en-date').textContent = enDate;
+        document.getElementById('tr-date').textContent = trDate;
+        
+        function showContent(lang) {
+            // Hide all content
+            document.querySelectorAll('.policy-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Remove active class from all buttons
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Show selected content
+            document.getElementById(lang + '-content').classList.add('active');
+            
+            // Add active class to clicked button
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
